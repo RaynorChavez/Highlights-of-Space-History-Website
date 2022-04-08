@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Cassini-Huygens</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/cassini_huygens.jpg" class = "articleimg">
+                <p>
+                This joint NASA/ESA spacecraft, launched in 1997, reached its destination, Saturn, in 2004. Since then it has been in orbit around the ringed world, taking one stunning snapshot after another of the planets rings, moons and weather. The Hugyens probe separated from Cassini and made a special trip to the moon Titan, where it descended through the atmosphere and landed on solid ground in 2005. Though previous spacecraft have visited Saturn, Cassini is the first to orbit it and study the system in detail.
+                </p>
+                <p>
+                Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a Flagship-class NASA–ESA–ASI robotic spacecraft.[4] Cassini is the fourth space probe to visit Saturn and the first to enter orbit. It has studied the planet and its many natural satellites since arriving there in 2004.
+                </p>
+                
+                <p>
+                Development of Cassini began in the 1980s. Its design includes a Saturn orbiter (Cassini) and a lander (Huygens) for the moon Titan. The two spacecraft are named after astronomers Giovanni Cassini and  Christiaan Huygens. The spacecraft was launched on October 15, 1997, aboard a Titan IVB/Centaur and entered orbit around Saturn on July 1, 2004, after an interplanetary voyage that included flybys of Earth, Venus, and Jupiter. On December 25, 2004, Huygens separated from the orbiter, and it landed on Saturn's moon Titan on January 14, 2005. It successfully returned data to Earth, using the orbiter as a relay. This was the first landing ever accomplished in the outer Solar System.
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

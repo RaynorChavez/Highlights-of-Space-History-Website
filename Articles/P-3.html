@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Lockheed P-3 Orion </div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/P-3.jpg" class = "articleimg">
+                <p>
+                The Lockheed P-3 Orion is a four-engine turbopropanti-submarine and maritime surveillance aircraft developed for the United States Navy and introduced in the 1960s. Lockheed based it on the L-188 Electra commercial airliner.[4] The aircraft is easily distinguished from the Electra by its distinctive tail stinger or "MAD Boom", used for the magnetic detection of submarines.
+                </p>
+                <p>
+                Over the years, the aircraft has seen numerous design advancements, most notably to its electronics packages. The P-3 Orion is still in use by numerous navies and air forces around the world, primarily for maritime patrol, reconnaissance, anti-surface warfare and anti-submarine warfare.[1] A total of 734 P-3s have been built, and in 2012, it joined the handful of military aircraft including the Boeing B-52 Stratofortress, Boeing KC-135 Stratotanker, Lockheed C-130 Hercules and the Lockheed U-2 that have seen over 50 years of continuous use by the United States military. The U.S. Navy's remaining P-3C aircraft will eventually be replaced by the P-8A Poseidon.
+                </p> 
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

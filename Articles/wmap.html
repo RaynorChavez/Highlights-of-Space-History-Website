@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">WMAP</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/wmap.jpg" class = "articleimg">
+                <p>
+               The Wilkinson Microwave Anisotropy Probe (WMAP), launched in 2001, may not be as well-known, but it measures with unprecedented accuracy the temperature of the radiation left over from the Big Bang. By mapping out the fluctuations in the so-called cosmic microwave background radiation, the spacecraft has heralded a leap forward in cosmological theories about the nature and origin of the universe. Among other revelations, the data from WMAP revealed a much more precise estimate for the age of the universe ? 13.7 billion years ? and confirmed that about 95 percent of it is composed of poorly understood things called dark matter and dark energy.
+                </p>
+                <p>
+                The Wilkinson Microwave Anisotropy Probe (WMAP), originally known as the Microwave Anisotropy Probe (MAP), was a spacecraft operating from 2001 to 2010 which measured temperature differences across the sky in the cosmic microwave background (CMB) – the radiant heat remaining from the Big Bang. Headed by Professor Charles L. Bennett of Johns Hopkins University, the mission was developed in a joint partnership between the NASA Goddard Space Flight Center and Princeton University. The WMAP spacecraft was launched on June 30, 2001 from Florida. The WMAP mission succeeded the COBE space mission and was the second medium-class (MIDEX) spacecraft in the NASA Explorers program. In 2003, MAP was renamed WMAP in honor of cosmologist David Todd Wilkinson (1935–2002), who had been a member of the mission's science team. After 9 years of operations, WMAP was switched off in 2010, following the launch of the more advanced Planck spacecraft by ESA in 2009.
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

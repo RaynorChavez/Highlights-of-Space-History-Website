@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Soyuz</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/soyuz.jpg" class = "articleimg">
+                <p>
+               Soyuz is a Russian Spacecraft that carries people and supplies to and fom the International Space Station. Currently, Soyuz is the only spacecraft that carries people to three ISS with a maximum capacity of three passengers. 
+                </p>
+                <p>
+                The soyuz also serves like a lifeboat for the astronauts and cosmonauts aboard ISS. If ever that there would be a problem in the ISS, the crew can use the Soyuz to get back to Earth.
+                </p>
+                <p><b>
+                    The Soyuz has 2 parts: the Soyuz Capsule and the Soyuz Rocket
+                </b></p>
+                
+                <p>
+                The Soyuz Capsule sits at the top of the Soyuz Rocket. It is composed of three parts called modules. <br>
+                The first part of the capsule is the Orbital Module. The crew members live in the Orbital Module while they are in orbit. This module is about the size of a large van. The Orbital Module can connect to the space station.<br>
+                The second part of the capsule is the Descent Module. “To descend” means to go down. The crew sits in this part when the Soyuz is launching to the space station. They also use the Descent Module for landing on Earth.<br>
+                The third module is home to the life support systems. It holds things like batteries, solar panels and steering engines.
+                </p>
+                
+                <p>
+                The Soyuz capsule launches on top of a Soyuz rocket. A rocket is what launches people and objects into space. After the launch, the capsule and the rocket separate. The rocket part of the Soyuz returns to Earth. The Soyuz capsule keeps going, and takes only nine minutes to reach space!
+                </p>
+                
+                <h3>How Does the Soyuz Launch and Land?</h3>
+                
+                <p>
+                The Soyuz launches from a country named Kazakhstan. It is Russia’s neighbor to the south.<br>
+                The Soyuz takes just six hours to get to the space station. The crew uses the hatch on the Soyuz to enter and leave the station.
+                When the crew is ready to come home, they ride in the Soyuz capsule back to Earth. The Soyuz does not land like an airplane because the Soyuz does not have wheels or wings.<br>
+                To land, the Soyuz drops through Earth's atmosphere. The atmosphere slows the Soyuz. The Soyuz uses parachutes to slow down even more. When the Soyuz gets close to the ground, it fires small rocket engines to slow down more. Even then, the landing is bumpy.<br>
+                The Soyuz lands in the grassy plains of Kazahkstan. After leaving the space station, the Soyuz takes only 3 1/2 hours to land!
+
+                
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">BE-3 - January 2013</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/be3.jpg" class = "articleimg">
+                <p>
+                The BE-3 (Blue Engine 3) is a LH2/LOXrocket engine developed by Blue Origin.The engine began development in the early 2010s, and completed acceptance testing in early 2015. The engine is being used on the Blue Origin New Shepardsuborbital rocket, for which test flights began in 2015. The engine is under consideration by United Launch Alliance (ULA) for use in a new second stage, the Advanced Cryogenic Evolved Stage, in ULA's Vulcanorbital launch vehicle with first flight in the 2020s.
+                </p>
+                <p>
+                The BE-3 was successfully tested in late 2013 on a full-duration simulated suborbital burn, with coast phases and engine relights, "demonstrating deep throttle, full power, long-duration and reliable restart all in a single-test sequence.” 
+                </p> 
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

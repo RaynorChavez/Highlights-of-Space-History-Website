@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer" style = "position: relative; top: 50%; transform: translateY(-10%);">
+                <ul id = "mainnav" style = "float: left;">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="highlightselection.html"><li>Highlights</li></a>
+                    <a href="topicselection.html"><li>Topics</li></a>
+                    <a href="newsselection.html"><li>News</li></a>
+                    <a href="aboutus.html"><li>About Us</li></a>
+                    <a href="faq.html"><li>FAQ</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+                <br><br>
+                <div id = "title1">News</div><hr>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "Articles/News/news_tech.html">New Tech</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "Articles/News/news_discoveries.html">Discoveries</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "Articles/News/news_launches.html">Launches</a></span>
+                </div>
+                
+                <br><br><br><br>
+            
+                <div id = "title1">Trending Articles</div><hr>
+            
+                <div class = "longbox">
+                    <a href="Articles/News/73.html">
+                        <div class = "longboximg" style = "background: #000 url(Articles/News/73.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Russian Rocket Launches
+                            </div>
+                            <div id = "title3">
+                            The Soyuz-2.1a lifted off from the Baikonur Cosmodrome at 2:36 a.m. Eastern. The rocket deployed the primary payload...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="Articles/News/debris.html">
+                        <div class = "longboximg" style = "background: #000 url(Articles/News/debris.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Collecting Space Debris
+                            </div>
+                            <div id = "title3">
+                            Over half a million pieces of space debris currently orbit the earth, and this poses a serious problem for functional satellites and...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="Articles/News/exo.html">
+                        <div class = "longboximg" style = "background: #000 url(Articles/News/exo.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Kepler Space Telescope Exoplanets
+                            </div>
+                            <div id = "title3">
+                            The new discoveries boost Kepler's total to 4,034 candidate planets during its mission, 2,335 of which were later confirmed by...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="Articles/News/europa.html">
+                        <div class = "longboximg" style = "background: #000 url(Articles/News/europa.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Water Plumes in Europa
+                            </div>
+                            <div id = "title3">
+                            Slightly smaller than Earth's Moon, Europa is primarily made of silicate rock and has a water-ice crust and probably an iron–nickel core....
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                
+            </div>
+            
+            <br><br>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

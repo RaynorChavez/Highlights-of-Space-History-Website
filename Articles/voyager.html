@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Voyager</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/voyager.jpg" class = "articleimg">
+                <p>
+                Shortly after the Pioneers made their flybys, the Voyager 1 and Voyager 2 probes followed. They made many important discoveries about Jupiter and Saturn, including rings around Jupiter and the presence of volcanism on Jupiter's moon, Io. Voyager went on to make the first flybys of Uranus, where it discovered 10 new moons, and Neptune, where it found that Neptune actually weighs less than astronomers thought. Both Voyager crafts have enough power to keep transmitting radio signals until at least 2025, and are now exploring the very edge of the solar system and beginning of interstellar space. Voyager 2 is currently the farthest man-made object from Earth, at more than a hundred times the distance from the Earth to the sun, and more than twice as far as Pluto
+                </p>
+                <p>
+                The Voyager program is a continuing American scientific program that employs two robotic probes, Voyager 1 and Voyager 2, to study the outer Solar System. They were launched in 1977 to take advantage of a favorable alignment of Jupiter, Saturn, Uranus, and Neptune, and are now exploring the outer boundary of the heliosphere in interstellar space. Although their original mission was to study only the planetary systems of Jupiter and Saturn, Voyager 2 continued on to Uranus and Neptune, and both Voyagers are now tasked with exploring interstellar space. Their mission has been extended three times, and both probes continue to collect and relay useful scientific data. Neither Uranus nor Neptune has been visited by any probe other than Voyager 2.
+                </p>
+                
+                <p>
+                On August 25, 2012, data from Voyager 1 indicated that it had become the first human-made object to enter interstellar space, traveling "further than anyone, or anything, in history". As of 2013, Voyager 1 was moving with a velocity of 17 kilometers per second (11 mi/s) relative to the Sun.
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

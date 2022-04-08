@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Phoenix</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/phoenix.jpg" class = "articleimg">
+                <p>
+                Phoenix was a robotic spacecraft on a space exploration mission on Mars under the Mars Scout Program. The Phoenix landerdescended on Mars on May 25, 2008. Mission scientists used instruments aboard the lander to search for environments suitable for microbial life on Mars, and to research the history of water there. The total mission cost was about US $386 million, which includes cost of the launch.
+                </p>
+                <p>
+                The multi-agency program was headed by the Lunar and Planetary Laboratory at the University of Arizona, under the direction of NASA's Jet Propulsion Laboratory. The program was a partnership of universities in the United States, Canada, Switzerland, Denmark, Germany, the United Kingdom, NASA, the Canadian Space Agency, the Finnish Meteorological Institute, Lockheed Martin Space Systems, MacDonald Dettwiler Associates (MDA) and other aerospace companies. It was the first mission to Mars led by a public university in NASA history. It was led directly from the University of Arizona's campus in Tucson, with project management at the Jet Propulsion Laboratory in Pasadena, Calif., and project development at Lockheed Martin in Denver, Colorado. The operational funding for the mission extended through November 10, 2008.
+                </p>
+                
+                <p>
+                First appeared at https://en.wikipedia.org/wiki/Phoenix_(spacecraft)
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

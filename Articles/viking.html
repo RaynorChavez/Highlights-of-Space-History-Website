@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Viking</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/banxing.jpg" class = "articleimg">
+                <p>
+                When NASA's Viking 1 probe touched-down on Mars in July 1976, it was the first time a man-made object had soft-landed on the red planet. (Though the Soviet Mars 2 and 3 probes did land on the surface, they failed upon landing). The Viking 1 lander also holds the title of longest-running Mars surface mission, with a total duration of 6 years and 116 days. The spacecraft also sent the first color pictures back from the Martian surface, showing us what that mysterious red dot looks like from the ground for the first time.
+                </p>
+                <p>
+                The Viking program consisted of a pair of American space probes sent to Mars, Viking 1 and Viking 2. Each spacecraft was composed of two main parts: an orbiter designed to photograph the surface of Mars from orbit, and a lander designed to study the planet from the surface. The orbiters also served as communication relays for the landers once they touched down.
+                </p>
+                
+                <p>
+                The Viking program grew from NASA's earlier, even more ambitious, Voyager Mars program, which was not related to the successful Voyager deep space probes of the late 1970s. Viking 1 was launched on August 20, 1975, and the second craft, Viking 2, was launched on September 9, 1975, both riding atop Titan III-E rockets with Centaur upper stages. Viking 1 entered Mars orbit on June 19, 1976, with Viking 2 following suit on August 7.
+                </p>
+                
+                <p>
+                First appeared at https://en.wikipedia.org/wiki/Viking_1
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

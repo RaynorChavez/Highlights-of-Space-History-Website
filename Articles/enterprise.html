@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Space Shuttle Enterprise</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/enterprise.jpg" class = "articleimg">
+                <p>
+                Space Shuttle Enterprise (Orbiter Vehicle Designation: OV-101) was the first orbiter of the Space Shuttle system. Rolled out on September 17, 1976, it was built for NASA as part of the Space Shuttle program to perform atmospheric test flights after being launched from a modified Boeing 747.[1] It was constructed without engines or a functional heat shield, and was therefore not capable of spaceflight.
+                </p>
+                <p>
+                Originally, Enterprise had been intended to be refitted for orbital flight to become the second space-rated orbiter in service. However, during the construction of Space Shuttle Columbia, details of the final design changed, making it simpler and less costly to build Challenger around a body frame that had been built as a test article. Similarly, Enterprise was considered for refit to replace Challenger after the latter was destroyed, but Endeavour was built from structural spares instead.
+                </p> 
+                <p>
+                Enterprise was restored and placed on display in 2003 at the Smithsonian's new Steven F. Udvar-Hazy Center in Virginia. Following the retirement of the Space Shuttle fleet, Discovery replaced Enterprise at the Udvar-Hazy Center, and Enterprise was transferred to the Intrepid Sea, Air and Space Museum in New York City, where it has been on display since July 2012.
+                </p>
+                <p>
+                First appeared at https://en.wikipedia.org/wiki/Space_Shuttle_Enterprise
+                </p>
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

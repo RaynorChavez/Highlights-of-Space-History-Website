@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Lockheed Martin X-55</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/X-55.jpg" class = "articleimg">
+                <p>
+                The Lockheed Martin X-55 Advanced Composite Cargo Aircraft (ACCA) is an experimental twinjettransport aircraft. It is intended to demonstrate new air cargo-carrier capabilities using advanced composite material. A project of the United States Air Force's Air Force Research Laboratory, it was built by the international aerospace company Lockheed Martin, at its Advanced Development Programs (Skunk Works) facility in Palmdale, California.
+                </p>
+                <p>
+                The first flight was completed at Lockheed Martin's Advanced Development Programs facility (Air Force Plant 42) in Palmdale, California on June 2, 2009 by the Air Force Research Laboratory in conjunction with Lockheed Martin.[5] In October 2009, the ACCA demonstrator was designated X-55A by the USAF. Over the course of the program, 15 to 20 flights were expected. Furthermore, it was estimated that the vehicle was built for half the cost of a conventional design for a similar aircraft.
+                </p> 
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

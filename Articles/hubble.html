@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Hubble</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/hubble.jpg" class = "articleimg">
+                <p>
+                The most-loved of all NASA spacecraft, the Hubble Space Telescope has name recognition around the world. Its photos have changed the way everyday people figure themselves into the cosmos. The observatory has also radically changed science, making breakthroughs on astronomical issues too numerous to count. By finally sending up an optical telescope to peer at the sky from beyond Earth's turbulent atmosphere, NASA developed a tool that could reveal stars, planets, nebulae and galaxies in all their fully-detailed glory.
+                </p>
+                <p>
+                The Hubble Space Telescope (HST) is a space telescope that was launched into low Earth orbit in 1990 and remains in operation. Although not the first space telescope, Hubble is one of the largest and most versatile, and is well known as both a vital research tool and a public relations boon for astronomy. The HST is named after the astronomer Edwin Hubble, and is one of NASA's Great Observatories, along with the Compton Gamma Ray Observatory, the Chandra X-ray Observatory, and the Spitzer Space Telescope.
+                </p>
+                
+                <p>
+                With a 2.4-meter (7.9 ft) mirror, Hubble's four main instruments observe in the near ultraviolet, visible, and near infrared spectra. Hubble's orbit outside the distortion of Earth's atmosphere allows it to take extremely high-resolution images, with substantially lower background light than ground-based telescopes. Hubble has recorded some of the most detailed visible light images ever, allowing a deep view into space and time. Many Hubble observations have led to breakthroughs in astrophysics, such as accurately determining the rate of expansion of the universe.
+                </p>
+                
+                <p>
+                The HST was built by the United States space agency NASA, with contributions from the European Space Agency. The Space Telescope Science Institute (STScI) selects Hubble's targets and processes the resulting data, while the Goddard Space Flight Center controls the spacecraft.
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

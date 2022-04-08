@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Lockheed U-2 </div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/U-2.jpg" class = "articleimg">
+                <p>
+                The Lockheed U-2, nicknamed "Dragon Lady", is an American single-jet engine, ultra-high altitudereconnaissance aircraft operated by the United States Air Force (USAF) and previously flown by the Central Intelligence Agency (CIA). It provides day and night, high-altitude (70,000 feet; 21,336 m), all-weather intelligence gathering.The U-2 has also been used for electronic sensor research, satellite calibration, and communications purposes.
+                </p>
+                <p>
+                Early versions of the U-2 were involved in several events through the Cold War, being flown over the Soviet Union, China, Vietnam, and Cuba. In 1960, Gary Powerswas shot down in a CIA U-2A over the Soviet Union by a surface-to-air missile (SAM). Another U-2, piloted by Major Rudolf Anderson, Jr., was lost in a similar fashion during the Cuban Missile Crisis of 1962.
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

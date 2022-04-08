@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Lockheed S-3 Viking </div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/S-3.jpg" class = "articleimg">
+                <p>
+                The Lockheed S-3 Viking is a four-seat, twin-engineturbofan-powered jet aircraft that was used by the U.S. Navyto identify and track enemy submarines. In the late 1990s, the S-3B's mission focus shifted to surface warfare and aerial refueling. The Viking also provided electronic warfare and surface surveillance capabilities to the carrier battle group. A carrier-based, subsonic, all-weather, multi-mission aircraft with long range; it carried automated weapon systems, and was capable of extended missions with in-flight refueling. Because of the Viking's engines' low-pitched sound, it was nicknamed the "Hoover" after the vacuum cleaner brand.
+                </p>
+                <p>
+                The S-3 was retired from front-line fleet service aboard aircraft carriers by the US Navy in January 2009, with its missions being assumed by other platforms such as the P-3C Orion, Sikorsky SH-60 Seahawk, and Boeing F/A-18E/F Super Hornet. Several aircraft were flown by Air Test and Evaluation Squadron Thirty (VX-30) at Naval Base Ventura County / NAS Point Mugu, California for range clearance and surveillance operations[2] on the NAVAIR Point Mugu Range until 2016, and one S-3 is operated by the National Aeronautics and Space Administration (NASA) at the NASA Glenn Research Center.
+                </p> 
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

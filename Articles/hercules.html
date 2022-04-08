@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Lockheed C-130 Hercules</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/hercules.jpg" class = "articleimg">
+                <p>
+                The Lockheed C-130 Hercules is a four-engine turbopropmilitary transport aircraft designed and built originally by Lockheed Martin. Capable of using unprepared runways for takeoffs and landings, the C-130 was originally designed as a troop, medevac, and cargo transport aircraft. The versatile airframe has found uses in a variety of other roles, including as a gunship (AC-130), for airborne assault, search and rescue, scientific research support, weather reconnaissance, aerial refueling, maritime patrol, and aerial firefighting. It is now the main tactical airlifter for many military forces worldwide. Over forty variants and versions of the Hercules, including a civilian one marketed as the Lockheed L-100, operate in more than 60 nations.
+                </p>
+                <p>
+                The C-130 entered service with the U.S. in the 1950s, followed by Australia and others. During its years of service, the Hercules family has participated in numerous military, civilian and humanitarian aid operations. In 2007, the C-130 became the fifth aircraft—after the English Electric Canberra, B-52 Stratofortress, Tupolev Tu-95, and KC-135 Stratotanker—to mark 50 years of continuous service with its original primary customer, in this case, the United States Air Force.[citation needed] The C-130 Hercules is the longest continuously produced military aircraft at over 60 years, with the updated Lockheed Martin C-130J Super Hercules currently being produced.
+                </p>
+                
+            
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

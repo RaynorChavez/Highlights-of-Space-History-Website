@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+            <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Orbiting the Sun</div><hr>
+                
+            <div class = "articletext">
+                <img src = "orbit.jpg" class = "articleimg">
+                <p>
+               NASA is sending the Parker Solar Probe spaceship to orbit around the earth for us to further be able to understand solar physics. This probe is the first ever in history to travel into the sun’s corona, and will definitely be equipped with specialized shields and function for it to survive the harsh temperature and radiation.
+                </p>
+                <p>
+             The probe is equipped with a robust cooling system with the coolant being water. Due to the limited temperature range, which was about 50 F to 257 F, the only available coolant was water. 
+                </p>
+                
+                <p>
+               Its cooling system includes a function that will pressurize the water as well as a deionization process to strip any minerals that may hinder the system. The cooling system is designed to keep the solar panels, which will inevitable power the entire spacecraft, functional at 360 F or lower. 
+                </p>
+                
+                <p>Engineers plan to cover the model glass as well as introduce a ceramic carrier soldered int o the bottom of each cell which is glued on by a thermally conductive adhesive. </p>
+                
+                <p>The complexity of the journey will require the Parker Solar Probe to automatically shift and adjust itself to keep the TPS in the right position to shield the craft. Even a one degree change in the angle of the solar panels relative to the sun would require 35 percent more cooling capacity, according to Lockwood.</p>
+                
+                <p>NASA's new solar spacecraft will trace how energy and heat move through the solar corona and explore the behavior of solar wind and energetic solar particles. Solar wind can destroy satellites and affect power grids on Earth. "We must understand this space environment just as early seafarers needed to understand the ocean," NASA states on the Parker Solar Probe website. Our new sun probe will help us get our feet wet.</p>
+            
+                
+            <br>
+                <p>References:</p>
+                <p><a href="
+https://www.nasa.gov/content/goddard/parker-solar-probe-humanity-s-first-visit-to-a-star
+">
+https://www.nasa.gov/content/goddard/parker-solar-probe-humanity-s-first-visit-to-a-star
+</a></p>
+                
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

@@ -1,0 +1,169 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+            <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+                <br><br>
+                <div id = "title1">News</div><hr>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "news_tech.html">New Tech</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "news_discoveries.html">Discoveries</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "news_launches.html">Launches</a></span>
+                </div>
+                
+                <br><br><br><br>
+            
+                <div id = "title1">Recent Discoveries</div><hr>
+            
+                <div class = "longbox">
+                    <a href = "waves.html">
+                        <div class = "longboximg" style = "background: #000 url(waves.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Gravitational Waves
+                            </div>
+                            <div id = "title3">
+                            The first observation of gravitational waves was made on 14 September 2015 and was announced by the LIGO and Virgo collaborations on 11 February 2016...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+                
+                <div class = "longbox">
+                    <a href = "newplanet.html">
+                        <div class = "longboximg" style = "background: #000 url(newplanet.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            A New Planet Orbiting a Star near the Sun
+                            </div>
+                            <div id = "title3">
+                            Proxima Centauri b is an exoplanet orbiting within the habitable zone of the closest star to the Sun—the red dwarf star Proxima Centauri...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+                
+                <div class = "longbox">
+                    <a href = "europa.html">
+                        <div class = "longboximg" style = "background: #000 url(europa.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Water Plumes in Europa
+                            </div>
+                            <div id = "title3">
+                             Slightly smaller than Earth's Moon, Europa is primarily made of silicate rock and has a water-ice crust[11] and probably an iron–nickel core...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+            
+            <div class = "longbox">
+                    <a href = "exo.html">
+                        <div class = "longboximg" style = "background: #000 url(exo.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                           Kepler Space Telescope Finds Hundreds of Exoplanets
+                            </div>
+                            <div id = "title3">
+                            The new discoveries boost Kepler's total to 4,034 candidate planets during its mission, 2,335 of which were later confirmed by follow-up observations...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+        
+        <div class = "longbox">
+                    <a href = "ice.html">
+                        <div class = "longboximg" style = "background: #000 url(ice.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Ice Deposits on Mars
+                            </div>
+                            <div id = "title3">
+                            Almost all water on Mars today exists as ice, though it also exists in small quantities as vapor in the atmosphere and occasionally...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+                
+            
+            <br><br>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

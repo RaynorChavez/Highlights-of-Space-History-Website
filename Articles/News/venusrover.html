@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+            <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">New Rovers to Explore Venus</div><hr>
+                
+            <div class = "articletext">
+                <img src = "venusrover.jpg" class = "articleimg">
+                <p>
+                Due to the extremely high temperatures of Venus and its unusually thick atmosphere, any rover or satellite sent to observe it would have to be specially built and maintained to be able to withstand the planet’s harsh environments. The longest amount of time that a spacecraft has survived on the surface of Venus is 127 minutes. A probe landed on the planet’s surface on 1982 and managed to survive the harsh environment by hiding its computers inside a titanium pressure vessel. Not only does Venus have an extremely hot climate, it also hosts an equivalent of 90 atmospheres of pressure at the surface. 
+                </p>
+                <p>
+               Most rovers are solar-powered, which means they rely on the sun to charge their batteries to allow them to fully function to their highest capacity, however due to Venus’s extremely thick upper atmosphere relying on solar energy to power land rovers in impossible. Another problem is that the upper atmosphere holds a large pool of acid rain that may disintegrate weak materials or damage the exterior of any spacecraft. 
+                </p>
+                
+                <p>
+                NASA’s Jet Propulsion Laboratory (JPL) may have come up with an ideal method to combat Venus’s harsh conditions and had already come up with a general design of a land rover that is capable of withstanding the planet’s environment. JPL plans to build an exploration rover without using conventional sensors, computers, or power systems and would use gears, springs, and mechanisms that would provide for majority of the rover’s functionality.
+                </p>
+                
+                <p>During an interview, one of the engineers that came up with the idea of the Automaton Rover for Extreme Environments (AREE).  They came up with several designs, starting with one that had legs, and ending with a model that resembles a WW2 tank. There is still many holes in the projects but the engineer splan to go through with experimentation and research. </p>
+                
+            <br>
+                <p>References:</p>
+                <p><a href="http://spectrum.ieee.org/automaton/robotics/space-robots/jpl-design-for-a-clockwork-rover-to-explore-venus">http://spectrum.ieee.org/automaton/robotics/space-robots/jpl-design-for-a-clockwork-rover-to-explore-venus</a></p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

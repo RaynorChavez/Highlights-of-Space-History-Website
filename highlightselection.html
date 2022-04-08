@@ -1,0 +1,114 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png" style = "position: relative; bottom: 10px;">
+            </div>
+
+            <nav id = "navcontainer" style = "position: relative; top: 50%; transform: translateY(-10%);">
+                <ul id = "mainnav" style = "float: left;">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="highlightselection.html"><li>Highlights</li></a>
+                    <a href="topicselection.html"><li>Topics</li></a>
+                    <a href="newsselection.html"><li>News</li></a>
+                    <a href="aboutus.html"><li>About Us</li></a>
+                    <a href="faq.html"><li>FAQ</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+ 
+        <section class = "bodycontainer">
+            
+            <br><br>
+            <div id = "title6">Highlights</div><br><br>
+            
+            
+            <div class = "subtopicselectionbox" style = "background: #000 url(worldmap.jpg) no-repeat center center;" >
+                
+            <div id = "title7">Highlights per Country</div>
+                <div class = "showme">
+                    <div class = "showmetext">
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_usa.html">USA</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_russia.html">Russia/USSR</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_japan.html">Japan</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_china.html">China</a></span>
+                    </div>
+                    
+                </div>
+                
+            </div><br>
+            
+            <div class = "subtopicselectionbox" style = "background: #000 url(oldtimer.jpg) no-repeat center center;">
+                <div id = "title7">Highlights per Time Period</div>
+                <div class = "showme">
+                    <div class = "showmetext">
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_1950-1970.html">1950-1970</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_1971-1990.html">1971-1990</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_1991-2010.html">1991-Present</a></span>a
+                    </div>
+                    
+                </div>
+            </div><br>
+            
+            <div class = "subtopicselectionbox" style = "background: #000 url(dragon.png) no-repeat center center;">
+                <div id = "title7">Highlights per Company</div>
+                <div class = "showme">
+                    <div class = "showmetext">
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_spacex.html">SpaceX</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_blueorigin.html">Blue Origin</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_lockheed.html">Lockheed Martin</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_boeing.html">Boeing</a></span>
+                        <span class = "showmetextbox"><a href = "Highlights/highlight_ula.html">ULA</a></span>
+                    </div>
+                    
+                </div>
+            </div><br>
+            
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+        
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

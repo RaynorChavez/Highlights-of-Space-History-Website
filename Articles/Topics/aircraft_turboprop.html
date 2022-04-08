@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+   <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+             <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner" >
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+                <br><br>
+                <div id = "title1">Aircraft: Turboprop</div><hr>
+                
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "aircraft_turboprop.html">Turboprop</a></span>
+                </div>
+                
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "aircraft_jet.html">Jet</a></span>
+                </div>
+                
+                <br><br><br><br>
+            
+                <div id = "title1">Articles</div><hr>
+            
+                <div class = "longbox">
+                    <a href="../F-16.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/F-16.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            F - 16
+                            </div>
+                            <div id = "title3">
+                            The General Dynamics F-16 Fighting Falcon is a single-engine supersonicmultirolefighter aircraft originally...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../F-22.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/F-22A.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            F - 22A
+                            </div>
+                            <div id = "title3">
+                            The Lockheed Martin F-22 Raptor is a fifth-generation, single-seat, twin-engine, all-weather stealth tactical fighter aircraft...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../F-117.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/F-117.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            F - 117
+                            </div>
+                            <div id = "title3">
+                            The Lockheed F-117 Nighthawk is a single-seat, twin-engine stealth attack aircraft that was developed by...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../P-3.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/P-3.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            P - 3
+                            </div>
+                            <div id = "title3">
+                            The Lockheed S-3 Viking is a four-seat, twin-engineturbofan-powered jet aircraft that was used by the U.S. Navyto identify...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../S-3.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/S-3.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            WMAP Space Telescope
+                            </div>
+                            <div id = "title3">
+                            The Wilkinson Microwave Anisotropy Probe (WMAP), launched in 2001, may not be as well-known, but it measures with unprecedented accuracy...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+            
+            <br><br>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

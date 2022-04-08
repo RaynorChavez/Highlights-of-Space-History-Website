@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+   <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+             <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+               <br><br>
+                <div id = "title1">Spacecrafts: Telescopes</div><hr>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "spacecraft_telescope.html">Telescopes</a></span>
+                </div>
+                
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "spacecraft_Interplanetary.html">Interplanetary</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "spacecraft_station.html">Space Stations</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "spacecraft_othersattelites.html">Other Satellites</a></span>
+                </div>
+                
+                <br><br><br><br>
+            
+                <div id = "title1">Articles</div><hr>
+            
+                <div class = "longbox">
+                    <a href="../hubble.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/hubble.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Hubble Space Telescope
+                            </div>
+                            <div id = "title3">
+                            The most-loved of all NASA spacecraft, the Hubble Space Telescope has name recognition around the world. Its photos have changed the...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../spitzer.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/spitzer.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Spitzer Space Telescope
+                            </div>
+                            <div id = "title3">
+                            Another spacecraft with a profound effect on cosmology and astrophysics is the Spitzer Space Telescope, which observed...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../wmap.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/wmap.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            WMAP Space Telescope
+                            </div>
+                            <div id = "title3">
+                            The Wilkinson Microwave Anisotropy Probe (WMAP), launched in 2001, may not be as well-known, but it measures with unprecedented accuracy...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                
+                <div class = "longbox">
+                    <a href="../hardx-raymodulationtelescope.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/hardxraymodulationtelescope.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Hard X-Ray Modulation Telescope
+                            </div>
+                            <div id = "title3">
+                            Hard X-ray Modulation Telescope (HXMT) also known as Insight is a Chinese X-ray space observatory, launched on June 15...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+            
+            <br><br>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

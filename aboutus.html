@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png" style = "position: relative; bottom: 10px;">
+            </div>
+
+            <nav id = "navcontainer" style = "position: relative; top: 50%; transform: translateY(-10%);">
+                <ul id = "mainnav" style = "float: left;">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="highlightselection.html"><li>Highlights</li></a>
+                    <a href="topicselection.html"><li>Topics</li></a>
+                    <a href="newsselection.html"><li>News</li></a>
+                    <a href="aboutus.html"><li>About Us</li></a>
+                    <a href="faq.html"><li>FAQ</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+ 
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+                
+                <br><br>
+                <div id = "title6">About Us</div><br>
+                <div id = "title1">Our Vision</div><hr>
+                <div>
+                    <p>
+                    We aim to educate students not only of the current happenings of the aerospace community, but also of its history, its presents, and its future. 
+                    </p>
+                    <p>
+                    Our team's goal is to be able to attract the youth today - students - by reeling them in with interesting topics that are not oly in regard to the technical side of the topic, but rather on all sides. We are tackling the history of aerospace and aviation organizations and emphasizing their highlights. Because in modern sciety today, people and especially students are not interested in subjects that rely solely on facts. By portraying to our viewers that aerospace technology also relies on theory and logic, they understand that sending rovers, observing satellites, spacecrafts and even humans to space is an important step for humanity.
+                    </p>
+
+                    <p>
+                    Our goal as a group of students is to be able to inform, educate, and reel in our fellow students into the complicated and complex yet interesting subject that is aerospace technology.
+                    </p>
+                </div>
+                <br><br>
+                
+                <div id = "title1">Contact Us</div><br><hr>
+                <div>
+                    
+                    <p><b>Address</b></p>
+                    <p><i>2401 Taft Avenue, Manila, Phiippines</i></p><br>
+                    
+                    <p><b>Email</b></p>
+                    <p><i>Spacebook@gmail.com</i></p><br>
+                    
+                    <p><b>Phone Numbers</b></p>
+                    <p><i>0912-345-6789</i></p><br>
+                    
+                    <p><b>Social Media</b></p>
+                    <p><i>Facebook:facebook.com/Spacebook</i><br><i>Twitter:@Spacebook_</i></p><br>
+
+                </div>
+                <br><br>
+            </div>
+        </section>
+        
+        <section class = "theteam">
+            <br>
+            <div class = "contentmargin">
+                <br>
+                <div id = "title1" style = "color: whitesmoke;">The Team</div>
+                <div class = "teamcontainer">
+                    <div class = "theteamimg"><center><h4>Hannah Tio</h4></center><img src = "Images/team/hannah.png"></div>
+                    <div class = "theteamimg" ><center><h4>Raynor Chavez</h4></center><img src = "Images/team/raynor.png"></div>
+                    <div class = "theteamimg" ><center><h4>Ralph Caser</h4></center><img src = "Images/team/ralph.png"></div>
+                    <div class = "theteamimg" ><center><h4>Paula Quiroga</h4></center><img src = "Images/team/paula.png"></div>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

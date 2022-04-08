@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Chandra</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/chandra.jpg" class = "articleimg">
+                <p>
+                Since 1999, the Chandra X-ray Observatory has been scanning the skies in X-ray light, looking at some of the most distant and bizarre astronomical events. Because Earth's pesky atmosphere blocks out most X-rays, astronomers couldn't view the universe in this high-energy, short-wavelength light until they sent Chandra up to space. The observatory has such high-resolution mirrors, it can see X-ray sources 100 times fainter than any previous X-ray telescope. Among other firsts, Chandra showed scientists the first glimpse of the crushed star left over after a supernova when it observed the remnant Cassiopeia A.
+                </p>
+                <p>
+                The Chandra X-ray Observatory (CXO), previously known as the Advanced X-ray Astrophysics Facility (AXAF), is a Flagship-class space observatory launched on STS-93 by NASA on July 23, 1999. Chandra is sensitive to X-ray sources 100 times fainter than any previous X-ray telescope, enabled by the high angular resolution of its mirrors. Since the Earth's atmosphere absorbs the vast majority of X-rays, they are not detectable from Earth-based telescopes; therefore space-based telescopes are required to make these observations. Chandra is an Earth satellite in a 64-hour orbit, and its mission is ongoing as of 2017.
+                </p>
+                
+                <p>
+                Chandra is one of the Great Observatories, along with the Hubble Space Telescope, Compton Gamma Ray Observatory (1991–2000), and the Spitzer Space Telescope. The telescope is named after the Nobel Prize-winning Indian-American astrophysicist Subrahmanyan Chandrasekhar.
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

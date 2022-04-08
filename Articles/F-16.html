@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">F-16 Fighting Falcon </div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/F-16.jpg" class = "articleimg">
+                <p>
+                The General Dynamics F-16 Fighting Falcon is a single-engine supersonicmultirolefighter aircraft originally developed by General Dynamics (now Lockheed Martin) for the United States Air Force (USAF). Designed as an air superiorityday fighter, it evolved into a successful all-weather multirole aircraft. Over 4,500 aircraft have been built since production was approved in 1976. Although no longer being purchased by the U.S. Air Force, improved versions are still being built for export customers. In 1993, General Dynamics sold its aircraft manufacturing business to the Lockheed Corporation,which in turn became part of Lockheed Martin after a 1995 merger with Martin Marietta.
+
+
+                </p>
+                <p>
+                The Fighting Falcon's key features include a frameless bubble canopy for better visibility, side-mounted control stick to ease control while maneuvering, a seat reclined 30 degrees to reduce the effect of g-forces on the pilot, and the first use of a relaxed static stability/fly-by-wire flight control system which helps to make it a nimble aircraft. The F-16 has an internal M61 Vulcan cannon and 11 locations for mounting weapons and other mission equipment. The F-16's official name is "Fighting Falcon", but "Viper" is commonly used by its pilots and crews, due to a perceived resemblance to a viper snake as well as the Colonial Viperstarfighter on Battlestar Galactica.
+
+
+                </p>
+                
+            
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

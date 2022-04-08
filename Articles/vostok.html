@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Vostok</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/vostok.jpg" class = "articleimg">
+                <p>
+               It was the first spaceflight of the Vostok programme and the first manned spaceflight in history. The Vostok 3KA space capsule was launched from Baikonur Cosmodrome on April 12, 1961, with Soviet cosmonaut Yuri Gagarin aboard, making him the first human to cross into outer space.
+                </p>
+                <p>
+                The preliminary design for the future manned spacecraft was officially concluded on May 15, 1958, favoring an orbital vehicle. A three-stage rocket for unmanned lunar missions would be re-purposed for manned missions in Earth's orbit. The lifting capabilities of the rocket allowed it to carry an almost five-ton spacecraft into low Earth orbit.
+                </p>
+                <p>
+                The final design of the Vostok spacecraft consisted of two main components: a descent module with the pilot cabin and the instrument module equipped with a braking engine.
+                As a purely experimental vehicle, Vostok had to safely carry a pilot in orbit and return him/her to Earth. The main flight control function was limited to orienting the spacecraft tail first for the firing of the braking engine prior to reentry into the atmosphere. The braking engine had to slow down the spacecraft by around 140 meters per second to ensure the safe return of the vehicle. Firing of the engine would be commanded by a programming timer, later known as PVU Granit.
+                Since the successful completion of the reentry maneuver meant life or death for the pilot and the braking engine could not be backed up by any other hardware, engineers decided to launch Vostok missions into a 180 by 235-kilometers orbit. At that altitude, the density of the upper atmosphere would be enough to slow down and send the spacecraft back to Earth roughly five days after launch, with a margin of error of 2.5 days. Vostok would have enough food, water, air and power onboard to support a 10-day mission.
+
+                </p>
+                
+                <h3>Vostok Cosmonauts</h3>
+                
+                <p>
+                On March 7, 1960, 12 pilots were officially enrolled into the cosmonaut training, soon joined by eight others. In the summer of the same year, six pilots were selected among 20 cosmonaut trainees for in-depth preparations for upcoming Vostok missions. The group included Valery Bykovsky, Yuri Gagarin, Grigory Nelyubov, Andriyan Nikolaev, Pavel Popovich and Gherman Titov. Order No 176 of the Soviet Air Force commander formally endorsed this "group within a group" on October 11, 1960.
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

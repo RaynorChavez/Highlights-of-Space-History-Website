@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png" style = "position: relative; bottom: 10px;">
+            </div>
+
+           <nav id = "navcontainer" style = "position: relative; top: 50%; transform: translateY(-10%);">
+                <ul id = "mainnav" style = "float: left;">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="highlightselection.html"><li>Highlights</li></a>
+                    <a href="topicselection.html"><li>Topics</li></a>
+                    <a href="newsselection.html"><li>News</li></a>
+                    <a href="aboutus.html"><li>About Us</li></a>
+                    <a href="faq.html"><li>FAQ</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+ 
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+                
+                <br><br>
+                <div id = "title6">Frequently Asked Questions</div><br><hr>
+                <div>
+                    
+                    <p><b>1. What is the function of the Highlights section?</b></p>
+                    <p><i>The highlights section provides viewers the major evets that had occurred in the past, decades ago and ever just a few years ago. They represent some of the biggest steps humankind has taken in ters of progress in aerospace technology.</i></p><br>
+                    
+                    <p><b>2. Can I add a new article to this website?</b></p>
+                    <p><i>Yes you may submit an entry article(subject to admin approval)! Please click this link: <a href="submitarticle.html">Submit an article</a></i></p><br>
+                    
+                    <p><b>3. Is space tourism going to be feasible in the near future?</b></p>
+                    <p><i>Yes, in fact the CEO of SpaceX, Elon Musk, has recently released that the company will soon send two space tourists up very soon. Space tourism is definately a priceless experience but even in twenty years it will still cost a pretty penny.</i></p><br>
+                    
+                    <p><b>4. Are there any planets like Earth where we could possibly live in?</b></p>
+                    <p><i>Yes there are! In fact, we have articles that cover this topic in our news section coupled with references for those who want to read further. There are already several planets that organizations are looking into but not one has proved to be 100% sustainable in terms of how Earth is today, and would constantly need sources of oxygen, water, or other important life-sustaining factors.</i></p><br>
+                    
+                    <p><b>5. Can we visit the "dark side of the moon"?</b></p>
+                    <p><i>What people call "the dark side of the moon" is only referring to the side that doesn't face the earth, meaning that t cannot be observed by ground telescopes but it can be observed by satellites and the like. The answer to this question is yes, we can visit the dark sde of the moon.</i></p><br>
+                    
+                    
+                    <br><br>                    
+                    <b>Any other questions or suggestions? Reach us through this messagebox:</b>
+                    <form action="/action_page.php">
+                      <textarea rows="4" cols="50">Enter query here
+                      </textarea>
+                      <br>
+                      
+                      <input type="submit" value="Submit">
+                    </form> 
+                   
+                </div>
+                <br><br>
+            </div>
+        </section>
+        
+        <section class = "theteam">
+            <br>
+            <div class = "contentmargin">
+                <br>
+                <!--<div id = "title1" style = "color: whitesmoke;">The Team</div>-->
+            </div>
+        </section>
+        
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

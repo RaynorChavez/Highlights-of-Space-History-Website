@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Explorer 1</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/explorer1.jpg" class = "articleimg">
+                <p>
+               Explorer 1 was the first satellite of the United States, launched as part of its participation in the International Geophysical Year. The mission followed the first two satellites the previous year; the Soviet Union's Sputnik 1 and 2, beginning the Cold War Space Race between the two nations.
+                </p>
+
+                <p>
+                Explorer 1 was launched on January 31, 1958 at 22:48 Eastern Time (equal to February 1, 03:48 UTC) atop the first Juno booster from LC-26 at the Cape Canaveral Missile Annex, Florida. It was the first spacecraft to detect the Van Allen radiation belt,returning data until its batteries were exhausted after nearly four months. It remained in orbit until 1970, and has been followed by more than 90 scientific spacecraft in the Explorer series.
+
+
+                </p>
+                <p>
+                Explorer 1 was given Satellite Catalog Number 4, and the Harvard designation 1958 Alpha 1, the forerunner to the modern International Designator.
+                
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

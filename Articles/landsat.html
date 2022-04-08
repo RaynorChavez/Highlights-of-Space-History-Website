@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">LandSat 1</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/landsat.jpg" class = "articleimg">
+                <p>
+                Landsat 1, originally named "Earth Resources Technology Satellite 1", was the first satellite of the United States' Landsat program. It was a modified version of the Nimbus 4 meteorological satellite and was launched on July 23, 1972 by a Delta 900rocket from Vandenberg Air Force Base in California.[3] The near-polar orbiting spacecraft served as a stabilized, Earth-oriented platform for obtaining information on agricultural and forestry resources, geology and mineral resources, hydrology and water resources, geography, cartography, environmental pollution, oceanography and marine resources, and meteorological phenomena.
+                </p>
+                <p>
+                The multi-agency Earth Resources Satellites Program was begun in 1966 by the Department of the Interior. The goal of the program was to gather data from the Earth via remote sensing techniques. The following year a feasibility study was performed for the Earth Resources Technology Satellite. The Bureau of Budget (BOB) did not grant funding to build the satellite, but provided $2 million to continue the feasibility studies.
+                </p>
+                
+                <p>
+                Landsat 1 was originally named Earth Resources Technology Satellite 1 (also known as ERTS-A and ERTS-1). It was renamed to Landsat in 1975. It was the first satellite launched with the sole purpose of studying and monitoring the planet.
+                </p>
+                
+                <p>
+                First appeared at https://en.wikipedia.org/wiki/Landsat_1
+                </p>             
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

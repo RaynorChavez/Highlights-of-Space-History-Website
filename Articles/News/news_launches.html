@@ -1,0 +1,168 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+            <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+                <br><br>
+                <div id = "title1">News</div><hr>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "news_tech.html">New Tech</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "news_discoveries.html">Discoveries</a></span>
+                </div>
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "news_launches.html">Launches</a></span>
+                </div>
+                
+                <br><br><br><br>
+            
+                <div id = "title1">Launches</div><hr>
+            
+                <div class = "longbox">
+                    <a href = "73.html">
+                        <div class = "longboximg" style = "background: #000 url(73.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Russian Rocket Launches 73 Satellites into Orbit
+                            </div>
+                            <div id = "title3">
+                            The Soyuz-2.1a lifted off from the Baikonur Cosmodrome at 2:36 a.m. Eastern. The rocket deployed the primary payload, the Kanopus-V-IK...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+                
+                <div class = "longbox">
+                    <a href = "georgia.html">
+                        <div class = "longboximg" style = "background: #000 url(georgia.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                           Micro Rocket in Georgia
+                            </div>
+                            <div id = "title3">
+                            US-based spaceflight startup Vector Space Systems has conducted a test flight of its small launch vehicle at Camden Spaceport in Georgia...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+                
+                <div class = "longbox">
+                    <a href = "second.html">
+                        <div class = "longboximg" style = "background: #000 url(second.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            First Second Launch
+                            </div>
+                            <div id = "title3">
+                              A SpaceX capsule was the first of its kind to return to earth from space for a second time. Until now, no single cargo capsule has visited the ISS...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+            
+            <div class = "longbox">
+                    <a href = "ghana.html">
+                        <div class = "longboximg" style = "background: #000 url(ghana.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                           Ghana's First Satellite
+                            </div>
+                            <div id = "title3">
+                            Ghanasat-1, the first ever satellite developed in Ghana, has successfully been deployed into orbit from the International Space Station...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+        
+        <div class = "longbox">
+                    <a href = "orbit.html">
+                        <div class = "longboximg" style = "background: #000 url(orbit.jpg) no-repeat center center; background-size: cover;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Orbiting the Sun
+                            </div>
+                            <div id = "title3">
+                            NASA is sending the Parker Solar Probe spaceship to orbit around the earth for us to further be able to understand solar physics. This probe is the first ever...
+                            </div>
+                        </div>
+                    </a>
+                       
+                </div>
+            
+            <br><br>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

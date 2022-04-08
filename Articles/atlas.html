@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Atlas V - August 21, 2002</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/atlas.jpg" class = "articleimg">
+                <p>
+                Atlas V is an active expendable launch system in the Atlas rocket family. Atlas V was formerly operated by Lockheed Martin, and is now operated by the Lockheed Martin-Boeing joint venture United Launch Alliance (ULA). Each Atlas V rocket uses a Russian-built RD-180 engine burning kerosene and liquid oxygen to power its first stage and an American-built RL10 engine burning liquid hydrogen and liquid oxygen to power its Centaur upper stage. 
+                </p>
+                <p>
+                The RD-180 engines are provided by RD Amross, while Aerojet Rocketdyne provides both the RL10 engines and the strap-on boosters used in some configurations. The standard payload fairing sizes are 4 or 5 meters in diameter and of various lengths. Fairings sizes as large as 7.2 m in diameter and up to 32.3 m in length have been considered. The rocket is assembled in Decatur, Alabama and Harlingen, Texas.
+                </p> 
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

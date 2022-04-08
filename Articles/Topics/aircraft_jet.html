@@ -1,0 +1,172 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+   <link href="../../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+             <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../../index.html"><li>Home</li></a>
+                    <a href="../../topicselection.html"><li>Topics</li></a>
+                    <a href="../../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../../newsselection.html"><li>News</li></a>
+                    <a href="../../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+               <br><br>
+                <div id = "title1">Aircraft: Jet</div><hr>
+                
+
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "aircraft_turboprop.html">Turboprop</a></span>
+                </div>
+                
+                <div class = "newstypebox">
+                    <span id = "title3"><a href = "aircraft_jet.html">Jet</a></span>
+                </div>
+
+                
+                <br><br><br><br>
+            
+                <div id = "title1">Articles</div><hr>
+            
+                <div class = "longbox">
+                    <a href="../BE-3.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/be3.jpg) no-repeat center center; background-size: cover; height: 20%;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            BE-3 Airplane
+                            </div>
+                            <div id = "title3">
+                            The BE-3 (Blue Engine 3) is a LH2/LOXrocket engine developed by Blue Origin.The engine began development in the early 2010s...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../C-141.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/C-141.jpg) no-repeat center center; background-size: cover; height: 20%;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            C-141 Airplane
+                            </div>
+                            <div id = "title3">
+                            The Lockheed C-141 Starlifter was a military strategic airlifter that served with the Military Air Transport Service (MATS)...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../hercules.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/hercules.jpg) no-repeat center center; background-size: cover; height: 20%;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            Hercules
+                            </div>
+                            <div id = "title3">
+                            The Lockheed C-130 Hercules is a four-engine turbopropmilitary transport aircraft designed and built originally by Lockheed...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../T-50.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/T-50.jpg) no-repeat center center; background-size: cover; height: 20%;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            T-50 Aircraft
+                            </div>
+                            <div id = "title3">
+                            The KAI T-50 Golden Eagle is a family of South Korean supersonic advanced trainers and light combat aircraft, developed by Korea...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../U-2.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/U-2.jpg) no-repeat center center; background-size: cover; height: 20%;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            U-2 Bomber
+                            </div>
+                            <div id = "title3">
+                            The Lockheed U-2, nicknamed "Dragon Lady", is an American single-jet engine, ultra-high altitudereconnaissance aircraft...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                <div class = "longbox">
+                    <a href="../X-55.html">
+                        <div class = "longboximg" style = "background: #000 url(../../Images/highlights/X-55.jpg) no-repeat center center; background-size: cover; height: 20%;"></div>
+                        <div class = "boxtext"> 
+                            <div id = "title2">
+                            X-55 Airplane
+                            </div>
+                            <div id = "title3">
+                            The Lockheed Martin X-55 Advanced Composite Cargo Aircraft (ACCA) is an experimental twinjet transport...
+                            </div>
+                        </div>
+                    </a>   
+                </div>
+                
+            </div>
+            
+            <br><br>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>

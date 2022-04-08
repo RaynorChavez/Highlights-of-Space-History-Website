@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>Space Thing</title>
+    
+    <link href="../Aerospace5inStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Carousel.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5Timeline.css" type="text/css" rel="stylesheet"/>
+    <link href="../Aerospace5ArticleStyle.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+    
+<body>
+    
+    <div class = "head">
+       <div class = "contentmargin">
+            <div id = "logo">
+                <img src = "loo2.png">
+            </div>
+
+           <nav id = "navcontainer">
+                <ul id = "mainnav">
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="../topicselection.html"><li>Topics</li></a>
+                    <a href="../highlightselection.html"><li>Highlights</li></a>
+                    <a href="../newsselection.html"><li>News</li></a>
+                    <a href="../aboutus.html"><li>About Us</li></a>
+                </ul>
+            </nav>
+
+            <div id = "smallsearch">
+                
+            </div>
+        
+       </div>
+        
+        
+    </div>
+    
+    <div class = "mainwrapper">
+        <div class = "articlebanner">
+        
+        </div>
+        <section class = "articlecontainer">
+            <div class = "contentmargin">
+            
+            <br><br>
+            <div id = "title1">Pioneer 10</div><hr>
+                
+            <div class = "articletext">
+                <img src = "../Images/highlights/pioneer10.jpg" class = "articleimg">
+                <p>
+                Pioneer 10 (originally designated Pioneer F) is an American space probe, launched in 1972 and weighing 258 kilograms (569 pounds), that completed the first mission to the planet Jupiter. Thereafter, Pioneer 10 became the first spacecraft to achieve escape velocity from the Solar System. This space exploration project was conducted by the NASA Ames Research Center in California, and the space probe was manufactured by TRW Inc.
+                </p>
+                <p>
+                Pioneer 10 was assembled around a hexagonal bus with a 2.74 meters (9 ft 0 in) diameter parabolic dish high-gain antenna, and the spacecraft was spin stabilized around the axis of the antenna. Its electric power was supplied by four radioisotope thermoelectric generators that provided a combined 155 watts at launch.
+                </p>
+                
+                <p>
+                It was launched on March 2, 1972, by an Atlas-Centaur expendable vehicle from Cape Canaveral, Florida. Between July 15, 1972, and February 15, 1973, it became the first spacecraft to traverse the asteroid belt. Photography of Jupiter began November 6, 1973, at a range of 25,000,000 kilometers (16,000,000 mi), and a total of about 500 images were transmitted. The closest approach to the planet was on December 4, 1973, at a range of 132,252 kilometers (82,178 mi). During the mission, the on-board instruments were used to study the asteroid belt, the environment around Jupiter, the solar wind, cosmic rays, and eventually the far reaches of the Solar System and heliosphere.
+                </p>
+                
+                <p>
+                First appeared at https://en.wikipedia.org/wiki/Pioneer_10
+                </p>
+                       
+                           
+            </div>
+            </div>
+            
+            
+            <br><br>
+        </section>
+        
+        <footer>
+        Footer &copy;
+        </footer>
+    </div>  
+    
+    <script type="text/javascript">
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+   
+</body>
+</html>
